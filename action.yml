@@ -1,19 +1,19 @@
-name: 'Terragrunt installer'
-description: 'Install a specific version of terragrunt binary.'
-author: 'Petri Autero'
+name: "Terragrunt installer"
+description: "Install a specific version of terragrunt binary."
+author: "Petri Autero"
 inputs:
   terragrunt_version:
-    description: 'Terragrunt version to install'
+    description: "Terragrunt version to install"
     required: true
   token:
-    description: 'Github token to use for getting latest release'
+    description: "Github token to use for getting latest release"
     required: false
 outputs:
   terragrunt_path:
-    description: 'Path to the terragrunt binary'
+    description: "Path to the terragrunt binary"
 branding:
   icon: cloud
-  color: 'orange'
+  color: "orange"
 runs:
-  using: 'node16'
-  main: 'lib/index.js'
+  using: "node20"
+  main: "lib/index.js"
