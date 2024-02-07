@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.4.0 (2024-02-07)
+
+
+### Features
+
+* add ability to get latest Terragrunt version ([#11](https://github.com/autero1/action-terragrunt/issues/11)) ([989a3e6](https://github.com/autero1/action-terragrunt/commit/989a3e649c2b234217eb6576af09a39916d94fbf))
+* add github api token input ([318b30a](https://github.com/autero1/action-terragrunt/commit/318b30a44f5bbc0d6a26e1b24943b8e82993da2f))
+
+
+### Bug Fixes
+
+* use tag instead of name for latestRelease ([1acad56](https://github.com/autero1/action-terragrunt/commit/1acad564aa48ef43b0e77521a705975b4f90434d))
+
 ## [1.3.2](https://github.com/autero1/action-terragrunt/compare/v1.3.1...v1.3.2) (2023-05-18)
 
 
